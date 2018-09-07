@@ -1,5 +1,8 @@
-# annotated_encoder_decoder
-The Annotated Encoder Decoder with Attention
+# The Annotated Encoder Decoder with Attention
 
-This is a follow-up to the [Annotated Transformer](https://github.com/harvardnlp/annotated-transformer).
+A notebook that explains Neural Machine Translation using Recurrent Neural Networks.
+
+You can find the notebook [here](annotated_encoder_decoder.ipynb).
+
+This notebook is a follow-up to the [Annotated Transformer](https://github.com/harvardnlp/annotated-transformer).
 
