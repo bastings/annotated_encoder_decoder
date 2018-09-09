@@ -842,7 +842,7 @@ plot_perplexity(dev_perplexities)
 
 
 
-![png](output_36_2.png)
+![png](images/output_36_2.png)
 
 
 You can see that the model managed to correctly 'translate' the two examples in the end.
@@ -1504,7 +1504,7 @@ plot_perplexity(dev_perplexities)
 ```
 
 
-![png](output_49_0.png)
+![png](images/output_49_0.png)
 
 
 ## Prediction and Evaluation
@@ -1714,7 +1714,7 @@ plot_heatmap(src, pred, pred_att)
 
 
 
-![png](output_66_1.png)
+![png](images/output_66_1.png)
 
 
 # Congratulations! You've finished this notebook.
