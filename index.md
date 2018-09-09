@@ -129,7 +129,7 @@ class EncoderDecoder(nn.Module):
 ```
 
 To keep things easy we also keep the `Generator` class the same. 
-It simply projects the pre-output layer ($x$ in the `forward` function below) to obtain the output layer, so that the final dimension is the target vocabulary size.
+It simply projects the pre-output layer (x in the `forward` function below) to obtain the output layer, so that the final dimension is the target vocabulary size.
 
 
 ```python
@@ -299,17 +299,17 @@ class Decoder(nn.Module):
 
 ### Attention                                                                                                                                                                               
 
-At every time step, the decoder has access to *all* source word representations $\mathbf{h}_1, \dots, \mathbf{h}_M$. 
+At every time step, the decoder has access to *all* source word representations $$\mathbf{h}_1, \dots, \mathbf{h}_M$$. 
 An attention mechanism allows the model to focus on the currently most relevant part of the source sentence.
-The state of the decoder is represented by GRU hidden state $\mathbf{s}_i$.
-So if we want to know which source word representation(s) $\mathbf{h}_j$ are most relevant, we will need to define a function that takes those two things as input.
+The state of the decoder is represented by GRU hidden state $$\mathbf{s}_i$$.
+So if we want to know which source word representation(s) $$\mathbf{h}_j$$ are most relevant, we will need to define a function that takes those two things as input.
 
 Here we use the MLP-based, additive attention that was used in Bahdanau et al.:
 
 <img src="images/attention.png" width="280">
 
 
-We apply an MLP with tanh-activation to both the current decoder state $\bf s_i$ (the *query*) and each encoder state $\bf h_j$ (the *key*), and then project this to a single value (i.e. a scalar) to get the *attention energy* $e_{ij}$. 
+We apply an MLP with tanh-activation to both the current decoder state $$\bf s_i$$ (the *query*) and each encoder state $$\bf h_j$$ (the *key*), and then project this to a single value (i.e. a scalar) to get the *attention energy* $$e_{ij}$$. 
 
 Once all energies are computed, they are normalized by a softmax so that they sum to one: 
 
@@ -479,9 +479,9 @@ We will use torch text for batching. This is discussed in more detail below.
 
 ## Optimizer
 
-We will use the [Adam optimizer](https://arxiv.org/abs/1412.6980) with default settings ($\beta_1=0.9$, $\beta_2=0.999$ and $\epsilon=10^{-8}$).
+We will use the [Adam optimizer](https://arxiv.org/abs/1412.6980) with default settings ($$\beta_1=0.9$$, $$\beta_2=0.999$$ and $$\epsilon=10^{-8}$$).
 
-We will use $0.0003$ as the learning rate here, but for different problems another learning rate may be more appropriate. You will have to tune that.
+We will use 0.0003 as the learning rate here, but for different problems another learning rate may be more appropriate. You will have to tune that.
 
 # A First  Example
 
