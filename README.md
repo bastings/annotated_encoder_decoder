@@ -4,4 +4,4 @@ Recently, Alexander Rush wrote a blog post called [The Annotated Transformer](ht
 
 The idea is that going through both blog posts will make you familiar with two very influential sequence-to-sequence architectures. If you have any comments or suggestions, please let me know on Twitter [@joostbastings](https://twitter.com/joostbastings) or e-mail me at *firstname dot lastname @ gmail dot com*."
 
-[You can find the notebook here. Enjoy!](annotated_encoder_decoder.ipynb).
+Read the [blog post](https://bastings.github.io/annotated_encoder_decoder/) or simply run the jupyter notebook from this repository.
