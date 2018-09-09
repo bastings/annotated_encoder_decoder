@@ -1,1 +1,11 @@
+title: The Annotated Encoder Decoder
+description: A PyTorch tutorial implementing Bahdanau et al. (2015)
+google_analytics: 
+show_downloads: true
 theme: jekyll-theme-cayman
+kramdown:
+   math_engine: mathjax
+   syntax_highlighter: rouge
+   
+gems:
+  - jekyll-mentions
