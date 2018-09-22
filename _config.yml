@@ -1,6 +1,6 @@
 title: The Annotated Encoder Decoder
 description: A PyTorch tutorial implementing Bahdanau et al. (2015)
-google_analytics: 
+google_analytics: UA-126252625-1
 show_downloads: true
 theme: jekyll-theme-cayman
 kramdown:
