@@ -1053,7 +1053,7 @@ def train(model, num_epochs=10, lr=0.0003, print_every=100):
         model.cuda()
 
     # optionally add label smoothing; see the Annotated Transformer
-    criterion = nn.CrossEntropyLoss(reduction="sum", ignore_index=PAD_INDEX)
+    criterion = nn.NLLLoss(reduction="sum", ignore_index=PAD_INDEX)
     optim = torch.optim.Adam(model.parameters(), lr=lr)
     
     dev_perplexities = []
