@@ -638,7 +638,7 @@ def print_examples(example_iter, model, n=2, max_len=100,
 def train_copy_task():
     """Train the simple copy task."""
     num_words = 11
-    criterion = nn.CrossEntropyLoss(reduction="sum", ignore_index=0)
+    criterion = nn.NLLLoss(reduction="sum", ignore_index=0)
     model = make_model(num_words, num_words, emb_size=32, hidden_size=64)
     optim = torch.optim.Adam(model.parameters(), lr=0.0003)
     eval_data = list(data_gen(num_words=num_words, batch_size=1, num_batches=100))
