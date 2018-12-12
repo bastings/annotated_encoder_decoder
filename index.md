@@ -1726,3 +1726,5 @@ What didn't we cover?
 - We used greedy decoding here to get translations, but you can get better results with beam search.
 - The original model only uses a single dropout layer (in the decoder), but you can experiment with adding more dropout layers, for example on the word embeddings and the source word representations.
 - You can experiment with multiple encoder/decoder layers.
+- Experiment with a benchmarked and improved codebase: [Joey NMT](https://github.com/joeynmt/joeynmt)
+
