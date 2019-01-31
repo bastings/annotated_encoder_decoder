@@ -1729,6 +1729,11 @@ What didn't we cover?
 - Experiment with a benchmarked and improved codebase: [Joey NMT](https://github.com/joeynmt/joeynmt)
 
 If this was useful to your research, please consider citing:
+
+> Joost Bastings. 2018. The Annotated Encoder-Decoder with Attention. https://bastings.github.io/annotated_encoder_decoder/
+
+Or use the following Bibtex:
+
 ```
 @misc{bastings2018annotated,
   title={The Annotated Encoder-Decoder with Attention},
