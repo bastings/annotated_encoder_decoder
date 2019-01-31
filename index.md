@@ -6,6 +6,8 @@ Recently, Alexander Rush wrote a blog post called [The Annotated Transformer](ht
 
 The idea is that going through both blog posts will make you familiar with two very influential sequence-to-sequence architectures. If you have any comments or suggestions, please let me know on Twitter [@joostbastings](https://twitter.com/joostbastings) or e-mail me at *firstname dot lastname @ gmail dot com*.
 
+[Click here to open this notebook in Google Colab.](https://colab.research.google.com/github/bastings/annotated_encoder_decoder/blob/master/annotated_encoder_decoder.ipynb)
+
 # Model Architecture
 
 We will model the probability $$p(Y\mid X)$$ of a target sequence $$Y=(y_1, \dots, y_{N})$$ given a source sequence $$X=(x_1, \dots, x_M)$$ directly with a neural network: an Encoder-Decoder.
