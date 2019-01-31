@@ -1728,3 +1728,12 @@ What didn't we cover?
 - You can experiment with multiple encoder/decoder layers.
 - Experiment with a benchmarked and improved codebase: [Joey NMT](https://github.com/joeynmt/joeynmt)
 
+If this was useful to your research, please consider citing:
+```
+@misc{bastings2018annotated,
+  title={The Annotated Encoder-Decoder with Attention},
+  author={Bastings, Joost},
+  journal={https://bastings.github.io/annotated\_encoder\_decoder/},
+  year={2018}
+}
+```
