@@ -687,7 +687,7 @@ def plot_perplexity(perplexities):
 plot_perplexity(dev_perplexities)
 ```
 
-    /home/joost/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/rnn.py:38: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
+    /home/jb/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/rnn.py:38: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
       "num_layers={}".format(dropout, num_layers))
 
 
@@ -1095,7 +1095,7 @@ dev_perplexities = train(model, print_every=100)
     Epoch 0
 
 
-    /home/joost/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/rnn.py:38: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+    /home/jb/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/rnn.py:38: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
       "num_layers={}".format(dropout, num_layers))
 
 
@@ -1732,14 +1732,14 @@ What didn't we cover?
 
 If this was useful to your research, please consider citing:
 
-> Joost Bastings. 2018. The Annotated Encoder-Decoder with Attention. https://bastings.github.io/annotated_encoder_decoder/
+> J. Bastings. 2018. The Annotated Encoder-Decoder with Attention. https://bastings.github.io/annotated_encoder_decoder/
 
 Or use the following Bibtex:
 
 ```
 @misc{bastings2018annotated,
   title={The Annotated Encoder-Decoder with Attention},
-  author={Bastings, Joost},
+  author={Bastings, J.},
   journal={https://bastings.github.io/annotated\_encoder\_decoder/},
   year={2018}
 }
